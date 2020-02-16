@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap');
+
+
+/* Parallax */
+.img1, .img2, .img3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-attachment: scroll; */
+}
+
+.img1 {
+  background-image: url("images/bg.jpg");
+  min-height: 100%;
+  margin-top: 0;
+}
+
+.img2, .img3 {
+  background-image: url("images/bg.jpg");
+  min-height: 400px;
+}
+/* End  of parallax*/
+
+.container-fluid {
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portText {
+  font-family: 'Libre Baskerville', serif;
+}
+
+#home {
+  text-align: center;
+  padding: 70px 0;
+}
+
+#home h1{
+  padding-top: 20%;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+}
+
+#home h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+#home p {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 2rem;
+}
+
+.container h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#cats {
+  color: #F2A7A7;
+}
+
+#about .img-thumbnail{
+  transform: rotate(270deg);
+  position: relative;
+  top: 60px;
+  left: 50px;
+}
+
+
+
+
+
+@media(max-width: 575px) {
+  .overlay {
+    width: 75%;
+  }
+
+  .projects.columnHover {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 95%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  /* padding-top: 60px; */
+  text-align: center;
+}
+
+.overlayBtns {
+  padding-top: 20px;
+}
+
+#skills {
+  font-size: 6.5rem;
+  /* padding-right: 30px; */
+
+}
+
+.skills {
+  text-align: center;
+
+}
+
+.container .skills {
+  height: 5px;
+}
+
+button {
+  color: white;
+  background-color: #F2A7A7;
+  border-radius: 5%;
+  outline: none;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fab {
+  color: #F2A7A7;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+/* When you mouse over the container, fade in the overlay title */
+.col-hover:hover .overlay {
+  opacity: 1;
+}
+
+.columnHover:hover .overlay {
+  opacity: 1;
+}
+
+#icon {
+  font-size: 60px;
+  padding-right: 15px;
+  color: white;
+}
+
+.overlay p {
+  color: white;
+  text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    padding-top: 25px;
+}
+
+.text p {
+  /* margin: auto; */
+  /* padding: 10px; */
+}
+
+.formSubmit {
+  margin-bottom: 20px;
+  height: 45px;
+  width: 95px;
+  font-size: 1.6rem;
+  border-radius: 5%;
+}
+
+.container {
+  margin-bottom: 155px;
+}
+
+.container .col-sm-6 p {
+  font-family: 'Source Sans Pro', sans-serif;
+font-size: 1.5rem;
+}
+
+.projects.col-hover {
+  position: relative;
+  top: 40px;
+}
+
+.projects.columnHover {
+  position: relative;
+  top: 40px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.typed-string {
+  color: black;
+  font-size: 2.3rem;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.typed-string p {
+  color: black;
+}
+
+#arrow {
+  position: relative;
+  bottom: -53px;
+  outline: none;
+  padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  background-color: #F2A7A7 !important;
+  font-family: 'Libre Baskerville', serif;
+
+ }
+
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+ #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #F2A7A7; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#about img {
+  height: 220px;
+}
