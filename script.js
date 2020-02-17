@@ -12,7 +12,7 @@ const typed = new Typed('#typed', {
   const btn = document.querySelector('.fas');
   btn.addEventListener('click', scroller);
     function scroller(){
-      window.scrollTo(0, 752);
+      window.scrollTo(0, 657);
     }
 
 
