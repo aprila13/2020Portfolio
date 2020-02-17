@@ -13,7 +13,7 @@
 
 .img1 {
   background-image: url("images/bg.jpg");
-  min-height: 100%;
+  min-height: 100vh;
   margin-top: 0;
 }
 
@@ -69,7 +69,13 @@ font-size: 2rem;
   transform: rotate(270deg);
   position: relative;
   top: 60px;
-  left: 50px;
+}
+
+.resumeBtn {
+  position: relative;
+  bottom: -175px;
+  left: 25%;
+  width: 50%;
 }
 
 
@@ -110,18 +116,15 @@ font-size: 2rem;
 }
 
 #skills {
-  font-size: 6.5rem;
-  /* padding-right: 30px; */
-
+  font-size: 4.4rem;
 }
 
 .skills {
   text-align: center;
-
 }
 
-.container .skills {
-  height: 5px;
+.skills {
+  height: 1vh;
 }
 
 button {
@@ -148,8 +151,8 @@ button {
 }
 
 #icon {
-  font-size: 60px;
-  padding-right: 15px;
+  /* font-size: 60px; */
+  /* padding-right: 10px; */
   color: white;
 }
 
@@ -178,9 +181,9 @@ button {
   margin-bottom: 155px;
 }
 
-.container .col-sm-6 p {
+.container .col-lg-6 p {
   font-family: 'Source Sans Pro', sans-serif;
-font-size: 1.5rem;
+font-size: 1.4rem;
 }
 
 .projects.col-hover {
@@ -249,8 +252,4 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
-}
-
-#about img {
-  height: 220px;
 }
