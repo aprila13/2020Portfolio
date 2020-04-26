@@ -65,17 +65,15 @@ font-size: 2rem;
   color: #F2A7A7;
 }
 
-#about .img-thumbnail{
-  transform: rotate(270deg);
+#about .img-fluid{
   position: relative;
-  top: 60px;
+  top: -50px;
 }
 
 .resumeBtn {
   position: relative;
-  bottom: -175px;
-  left: 25%;
-  width: 50%;
+  bottom: 50px;
+  width: 100%;
 }
 
 
